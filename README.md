@@ -1,5 +1,5 @@
 # Field-Oriented-Control-FOC---FPGA
 
-As an extension of the thesis project, the FOC function was not able to be implemented on hardware due to various reasons. Therefore the main branch of this repository continues to implement the FOC on hardware and publish it on GitHub.
+As an extension of the thesis project, the Field-Oriented Control (FOC) function could not be implemented on hardware due to various constraints. Consequently, the main branch of this repository focuses on implementing the FOC algorithm on hardware and publishing the complete implementation on GitHub.
 
-The main controller, likely operating on an FPGA or STM32 microcontroller series, is combined with a three-phase two-level inverter driver, which is designed in Altium Designer and implemented on the PCB layout. As a result, the branch includes FPGA or MCU programming of the control system, and the hardware design is composed of schematic and PCB layout. 
+The main controller—expected to operate on either an FPGA or an STM32-series microcontroller—is integrated with a three-phase, two-level inverter driver. The inverter hardware is designed in Altium Designer and implemented through schematic capture and PCB layout. Accordingly, this branch encompasses both the FPGA or MCU programming for the control system and the complete hardware design, including schematics and PCB layouts.
